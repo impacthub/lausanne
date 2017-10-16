@@ -1,4 +1,4 @@
-baseURL = "https://imapcthub.github.io/lausanne"
+baseURL = "https://impacthub.github.io/lausanne"
 languageCode = "en-us"
 title = "ImpactHub Lausanne"
 theme = "hugo-icon"
