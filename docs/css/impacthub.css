@@ -1,0 +1,12 @@
+
+@font-face {
+  font-family: 'GT Walsheim';
+  src: url("../fonts/GTWalsheim-Bold_2.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+.impacthub h1 {
+  font-family: "GT Walsheim","Open Sans", Arial, sans-serif;
+  font-weight: 700;
+  line-height: 0.9em!important;
+}
