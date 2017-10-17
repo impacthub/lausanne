@@ -10,3 +10,13 @@
   font-weight: 700;
   line-height: 0.9em!important;
 }
+
+#fh5co-location {
+  position: relative;
+  padding: 7em 0;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-location {
+    padding: 5em 0 3em 0;
+  }
+}

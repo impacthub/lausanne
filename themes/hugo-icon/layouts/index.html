@@ -34,6 +34,10 @@
 	{{ partial "team.html" .}}
 	{{ end }}
 
+	{{ if .Site.Params.location.enable }}
+	{{ partial "location.html" .}}
+	{{ end }}
+
 	{{ if .Site.Params.contact.enable }}
 	{{ partial "contact-form.html" .}}
 	{{ end }}
