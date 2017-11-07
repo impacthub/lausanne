@@ -14,15 +14,17 @@ publishDir = "docs"
 [params.hero]
   img = "images/impacthublausanne_1.jpg"
   title = "ImpactHub Lausanne"
-  description = "Nous sommes une communauté d’entrepreneurs sociaux, un espace coopératif, un laboratoire d’innovation et un incubateur de démarrage."
-  contact = "Demander un tour gratuit"
+  teaser = "Rejoignez-nous !"
+  description = "Nous sommes une communauté locale d’entrepreneurs, un espace coopératif et un laboratoire d’idées, cherchant à apporter des solutions innovantes aux challenges de la société actuelle."
+  contact = "Rejoignez-nous"
+  informations = "Plus d’informations"
 
 # Navigation section
 [params.nav]
-  mission = "La mission"
+  mission = "En résumé"
   services = "L'Impact Hub"
-  team = "L'équipe"
   work = "Événements"
+  team = "L'équipe"
   location = "Nous trouver"
   contact = "Prendre contact"
   # Include logo instead if HOME:
@@ -30,40 +32,40 @@ publishDir = "docs"
 
 # Mission section
 [params.mission]
-  enable = false
+  enable = true
 
   [params.mission.images]
     enable = true
 
     [[params.mission.images.list]]
-      img = "images/img_3.jpg"
+      img = "images/impacthublausanne_2.jpg"
     [[params.mission.images.list]]
-      img = "images/img_2.jpg"
+      img = "images/impacthublausanne_3.jpg"
     [[params.mission.images.list]]
-      img = "images/img_1.jpg"
+      img = "images/impacthublausanne_6.jpg"
     [[params.mission.images.list]]
-      img = "images/img_4.jpg"
+      img = "images/impacthublausanne_8.jpg"
 
   [[params.mission.item]]
     weight = 1
-    name = "events"
-    title = "Événements"
-    subtitle = "Partager des moments inoubliables."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid aperiam eveniet officia molestiae temporibus beatae dolores dignissimos aspernatur eius doloremque ad, eaque pariatur, repellendus illum, nostrum velit necessitatibus molestias.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline'>Get In Touch</a></p>"
+    name = "impacthub"
+    title = "L'Impact Hub"
+    subtitle = "Au coeur de Lausanne"
+    description = "<p>Situé à quelques pas de la place Chauderon, Impact Hub Lausanne met à votre disposition un espace où les entrepreneurs et innovateurs se retrouvent pour prototyper les nouveaux modèles d’une société pour tous - connectant différents secteurs, industries et cultures. Nous vous donnons accès à un espace de travail inspirant, une communauté dynamique et ouverte, des programmes d’incubation de startups, mais aussi des événements dédiés, des cours et des ateliers. En tant que membre, vous rejoignez une communauté de plus 15’000 membres et 80 espaces à travers le monde. </p><ul class='checked'><li>Argument numéro 1</li><li>Argument numéro 2</li><li>Argument numéro 3</li></ul><p><a href='#' class='btn btn-primary btn-outline'>Get In Touch</a></p>"
 
   [[params.mission.item]]
     weight = 2
-    name = "programms"
-    title = "Programmes"
+    name = "services"
+    title = "Nos services"
     subtitle = "Avoir un impact, faire la différence"
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline'>Get In Touch</a></p>"
+    description = "<p>Un paragraphe ici qui résume nos services</p><ul class='checked'><li>Abonnements</li><li>Organisation de réunions et d'événements</li><li>Pour les entreprises & organisations</li></ul><p><a href='#' class='btn btn-primary btn-outline'>En apprendre plus sur nos services</a></p>"
 
   [[params.mission.item]]
     weight = 3
     name = "spaces"
-    title = "Espaces"
+    title = "L'espace"
     subtitle = "Une communauté, un lieu pour accueillir la créativité et l'innovation"
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline'>Get In Touch</a></p>"
+    description = "<p>Notre espace est unique et inspirant, tout ce dont vous avez besoin pour une réflexion créative et une performance optimale. Obtenez votre abonnement mensuel ou louez une de nos salles de réunion à l’heure. Réservez une visite guidée pour devenir membre ou faire un tour de notre espace</p><p><a href='https://davidviale.youcanbook.me/' class='btn btn-primary btn-outline'>Réservez une visite guidée</a></p>"
 
 # Services section
 [params.services]
@@ -71,23 +73,26 @@ publishDir = "docs"
   video = false
   vidlink = "https://vimeo.com/channels/staffpicks/93951774"
   title = "L'ImpactHub"
-  description = "Nous offrons des ateliers, des réseaux et des opportunités de collaboration pour les particuliers, les start-ups et les organisations au cœur de Lausanne. Rejoignez notre communauté, apportez des idées novatrices et optimisez l’impact de votre entreprise sociale! "
+  description = "Nous croyons qu’un monde meilleur évolue à travers les accomplissements combinés d’individus créatifs, engagés et passionnés se concentrant sur un objectif commun. Impact Hub vous offre un écosystème unique de ressources, d’inspirations et d’opportunités de collaboration afin de croître l’impact positif de vos travaux. Rejoindre notre vaste communauté de membres et collaborateurs vous inspirera et connectera tout en vous permettant de développer le meilleur de votre travail, à chacune de ses étapes."
   contact = "Prendre contact"
 
   [[params.services.item]]
     icon = "icon-people"
-    title = "Événements"
-    description = "Partager des moments inoubliables."
+    photo = "images/impacthublausanne_3.jpg"
+    title = "Abonnements"
+    description = "Marre d’être isolé dans votre travail ou votre projet? Envie de vous ancrer localement dans votre communauté, de vous inspirer, d’innover, tout en débloquant des opportunités de partenariat? A la recherche d’un lieu dans lequel activités professionnelles, créativité et partage de compétences se rencontrent? Devenez membre du réseau Impact Hub et bénéficiez d’un espace de travail flexible et collaboratif, d’un service Hubonaut dédié, d’une plateforme digitale de communication entres membres et d’événements exclusifs. Votre deuxième chez-vous. "
 
   [[params.services.item]]
     icon = "icon-speedometer"
-    title = "Programmes"
-    description = "Avoir un impact, faire la différence"
+    photo = "images/impacthublausanne_4.jpg"
+    title = "Organisation de réunions et d'événements"
+    description = "Besoin d’une salle fermée pour une réunion, une interview, ou une séance de brainstorming pour quelques heures ou une journée entière? Nous tenons à votre disposition divers services de facilitation (hôte d'accueil, installation audio/vidéo, imprimante laser, scanner, visioconférences…) ainsi que de petite restauration."
 
   [[params.services.item]]
     icon = "icon-map"
-    title = "Espaces"
-    description = "Une communauté, un lieu pour accueillir la créativité et l'innovation"
+    photo = "images/impacthublausanne_5.jpg"
+    title = "Pour les entreprises & organisations"
+    description = "Vous souhaitez comprendre les challenges et tendances futures de votre secteur, votre région? Explorer de nouvelles possibilités de développement? Chercher des approches innovantes afin de réaliser des projets tout en vous inscrivant dans une dynamique durable? Afin de faire avancer votre organisation et vos collaborateurs dans cette direction, nous vous accompagnons dans la réalisation de:"
 
   # [[params.services.item]]
   #   icon = "icon-pencil"
@@ -108,38 +113,38 @@ publishDir = "docs"
 [params.location]
   enable = true
   title = "Comment nous trouver"
-  description = "Nous sommes situé à 10 minutes de la gare à 2 pas de Chaudron"
+  description = "<p>Nous sommes situé à 10 minutes de la gare à 2 pas de Chaudron</p><p>Impact Hub Lausanne <br/>Rue du Jura 11 <br/>CH - 1004 Lausanne </p><p>Lundi - Vendredi 09:00 - 19:00</p>"
   map = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2745.126984806966!2d6.621926315969944!3d46.52538897912782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c2e28dd3c3b7b%3A0xe63af32d75408e0b!2sImpact+Hub+Lausanne!5e0!3m2!1sen!2sch!4v1508223202322"
 
 # Work section
 [params.work]
   enable = true
   title = "Nos événements"
-  description = "Suivez notre actualité et nos événements directement sur notre [page facebook](https://www.facebook.com/hublausanne/)"
-
-  [[params.work.item]]
-    title = "Food Save Challenge"
-    subtitle = "Ideation workshop"
-    img = "images/event_foodchallenge.jpg"
-    link = "https://www.facebook.com/events/136269897013032/?acontext=%7B%22source%22%3A5%2C%22page_id_source%22%3A115144788544144%2C%22action_history%22%3A[%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%7B%5C%22page_id%5C%22%3A115144788544144%2C%5C%22tour_id%5C%22%3Anull%7D%22%7D]%2C%22has_source%22%3Atrue%7D"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/event_foodchallenge.jpg"
-    link = "https://www.facebook.com/events/136269897013032/?acontext=%7B%22source%22%3A5%2C%22page_id_source%22%3A115144788544144%2C%22action_history%22%3A[%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%7B%5C%22page_id%5C%22%3A115144788544144%2C%5C%22tour_id%5C%22%3Anull%7D%22%7D]%2C%22has_source%22%3Atrue%7D"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/event_foodchallenge.jpg"
-    link = "https://www.facebook.com/events/136269897013032/?acontext=%7B%22source%22%3A5%2C%22page_id_source%22%3A115144788544144%2C%22action_history%22%3A[%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%7B%5C%22page_id%5C%22%3A115144788544144%2C%5C%22tour_id%5C%22%3Anull%7D%22%7D]%2C%22has_source%22%3Atrue%7D"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/event_foodchallenge.jpg"
-    link = "https://www.facebook.com/events/136269897013032/?acontext=%7B%22source%22%3A5%2C%22page_id_source%22%3A115144788544144%2C%22action_history%22%3A[%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%7B%5C%22page_id%5C%22%3A115144788544144%2C%5C%22tour_id%5C%22%3Anull%7D%22%7D]%2C%22has_source%22%3Atrue%7D"
+  description = "Pour rester au courant de nos prochains évenements, rendez vous sur notre page [page facebook](https://www.facebook.com/hublausanne/)"
+  #
+  # [[params.work.item]]
+  #   title = "Food Save Challenge"
+  #   subtitle = "Ideation workshop"
+  #   img = "images/event_foodchallenge.jpg"
+  #   link = "https://www.facebook.com/events/136269897013032/?acontext=%7B%22source%22%3A5%2C%22page_id_source%22%3A115144788544144%2C%22action_history%22%3A[%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%7B%5C%22page_id%5C%22%3A115144788544144%2C%5C%22tour_id%5C%22%3Anull%7D%22%7D]%2C%22has_source%22%3Atrue%7D"
+  #
+  # [[params.work.item]]
+  #   title = "Consectetur adipisicing"
+  #   subtitle = "Web Design"
+  #   img = "images/event_foodchallenge.jpg"
+  #   link = "https://www.facebook.com/events/136269897013032/?acontext=%7B%22source%22%3A5%2C%22page_id_source%22%3A115144788544144%2C%22action_history%22%3A[%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%7B%5C%22page_id%5C%22%3A115144788544144%2C%5C%22tour_id%5C%22%3Anull%7D%22%7D]%2C%22has_source%22%3Atrue%7D"
+  #
+  # [[params.work.item]]
+  #   title = "Consectetur adipisicing"
+  #   subtitle = "Web Design"
+  #   img = "images/event_foodchallenge.jpg"
+  #   link = "https://www.facebook.com/events/136269897013032/?acontext=%7B%22source%22%3A5%2C%22page_id_source%22%3A115144788544144%2C%22action_history%22%3A[%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%7B%5C%22page_id%5C%22%3A115144788544144%2C%5C%22tour_id%5C%22%3Anull%7D%22%7D]%2C%22has_source%22%3Atrue%7D"
+  #
+  # [[params.work.item]]
+  #   title = "Consectetur adipisicing"
+  #   subtitle = "Web Design"
+  #   img = "images/event_foodchallenge.jpg"
+  #   link = "https://www.facebook.com/events/136269897013032/?acontext=%7B%22source%22%3A5%2C%22page_id_source%22%3A115144788544144%2C%22action_history%22%3A[%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%7B%5C%22page_id%5C%22%3A115144788544144%2C%5C%22tour_id%5C%22%3Anull%7D%22%7D]%2C%22has_source%22%3Atrue%7D"
   #
   # [[params.work.item]]
   #   title = "Consectetur adipisicing"
@@ -164,74 +169,69 @@ publishDir = "docs"
 # # Team section
 [params.team]
   enable = true
-  title = "Meet The Team"
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  title = "L'équipe de l'Impact Hub Lausanne"
+  description = "Il me manque le texte ....."
 
   [[params.team.item]]
-    name = "Jean Doe"
-    position = "Chief legend"
+    name = "Bautista"
+    position = "Co-founder"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
     img = "images/person1.jpg"
     facebook = "#"
     twitter = "#"
-    dribbble = "#"
     instagram = "#"
+    linkedin = "#"
     github = "#"
 
   [[params.team.item]]
-    name = "Alice Doe"
-    position = "Chief overlord"
+    name = "David"
+    position = "Community and event coordinator"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person2.jpg"
+    img = "images/PicDV.png"
     facebook = "#"
     twitter = "#"
-    dribbble = "#"
     instagram = "#"
+    linkedin = "#"
     github = "#"
 
   [[params.team.item]]
-    name = "John Doe"
-    position = "Chief haranguer"
+    name = "Alberto"
+    position = "Co-founder"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person3.jpg"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
+    img = "images/alberto.jpg"
+    twitter = "https://twitter.com/kidvaldez"
     instagram = "#"
-    github = "#"
+    linkedin = "#"
 
     [[params.team.item]]
-      name = "Jean Doe"
-      position = "Chief legend"
+      name = "Marc"
+      position = "Co-founder"
       description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-      img = "images/person1.jpg"
-      facebook = "#"
-      twitter = "#"
-      dribbble = "#"
-      instagram = "#"
-      github = "#"
-
-    [[params.team.item]]
-      name = "Alice Doe"
-      position = "Chief overlord"
-      description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-      img = "images/person2.jpg"
-      facebook = "#"
-      twitter = "#"
-      dribbble = "#"
-      instagram = "#"
-      github = "#"
-
-    [[params.team.item]]
-      name = "John Doe"
-      position = "Chief haranguer"
-      description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-      img = "images/person3.jpg"
-      facebook = "#"
-      twitter = "#"
-      dribbble = "#"
-      instagram = "#"
-      github = "#"
+      img = "images/mfh_2.png"
+      twitter = "https://twitter.com/zufrieden"
+      instagram = "mfriederich"
+      linkedin = "#"
+      github = "https://github.com/zufrieden"
+    #
+    # [[params.team.item]]
+    #   name = "Alice Doe"
+    #   position = "Chief overlord"
+    #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    #   img = "images/person2.jpg"
+    #   facebook = "#"
+    #   twitter = "#"
+    #   instagram = "#"
+    #   github = "#"
+    #
+    # [[params.team.item]]
+    #   name = "John Doe"
+    #   position = "Chief haranguer"
+    #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    #   img = "images/person3.jpg"
+    #   facebook = "#"
+    #   twitter = "#"
+    #   instagram = "#"
+    #   github = "#"
 
   # [[params.team.item]]
   #   name = "Jason Doe"
@@ -240,7 +240,6 @@ publishDir = "docs"
   #   img = "images/person3.jpg"
   #   facebook = "#"
   #   twitter = "#"
-  #   dribbble = "#"
   #   instagram = "#"
   #   github = "#"
 

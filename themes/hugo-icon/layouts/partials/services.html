@@ -12,7 +12,8 @@
     {{ range .item }}
     <div class="col-md-4">
       <div class="service">
-	<div class="icon"><i class={{ .icon }}></i></div>
+	<!-- <div class="icon"><i class={{ .icon }}></i></div> -->
+  <img src="{{ .photo }}" alt="" style="width:100%;">
 	<h3>{{ .title }}</h3>
 	<p>{{ .description | markdownify }}</p>
       </div>
