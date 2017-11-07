@@ -13,6 +13,9 @@
 	<h4>{{ .position }}</h4>
 	<!-- <p>{{ .description | markdownify }}</p> -->
 	<ul class="social">
+    {{ if isset . "email" }}
+	  <li><a href="{{ .email }}"><i class="icon-inbox"></i></a></li>
+	  {{ end }}
 	  {{ if isset . "facebook" }}
 	  <li><a href="{{ .facebook }}"><i class="icon-facebook"></i></a></li>
 	  {{ end }}

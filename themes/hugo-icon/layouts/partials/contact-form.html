@@ -4,39 +4,21 @@
       {{ with .Site.Params.contact }}
       <h2>{{ .title }}</h2>
       <p>{{ .message | markdownify }}</p>
+      <p>
+          <a href="{{ .phonelink }}" target="_blank">
+            {{ .contactphone }}
+          </a>
+          |
+          <a href="{{ .emaillink }}" target="_blank">
+              {{ .contactemail }}
+          </a>
+      </p>
+      <p>
+        <a href="{{ .visitlink }}" class="btn btn-primary" target="_blank">
+          {{ .contactvisit }}
+        </a>
+      </p>
       {{ end }}
     </div>
-
-    <form name="contact-form" netlify-honeypot="_gotcha" action="thank-you" netlify>
-          <div class="row">
-    	<div class="col-md-6">
-    	  <div class="form-group">
-    	    <!-- <label for="inputName">First name</label> -->
-    	    <input type="text" class="form-control" id="inputName" placeholder="Nom">
-
-    	  </div>
-    	</div>
-    	<div class="col-md-6">
-    	  <div class="form-group">
-    	    <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="_replyto">
-    	  </div>
-    	</div>
-    	<div class="col-md-12">
-    	  <div class="form-group">
-    	    <textarea class="form-control" id="inputBody" cols="30" rows="5" placeholder="Votre message." name="message"></textarea>
-    	  </div>
-        <small id="emailHelp" class="form-text text-muted">Nous utilisons votre e-mail uniquement pour les communications en lien avec l'ImpactHub</small>
-    	</div>
-    	<div class="col-md-12" style="margin-top:1em;">
-    	  <div class="form-group">
-    	    <input type="hidden" name="_subject" value="New website query">
-    	    <input type="text" name="_gotcha" style="display:none">
-    	    <button type="submit" class="btn btn-primary" value="Send">Envoyer</button>
-    	    <!-- <input type="submit" name="submit" value="Send message" class="btn btn-primary btn-outline"> -->
-    	  </div>
-    	</div>
-      </div>
-    </form>
-
   </div>
 </div>

@@ -51,21 +51,21 @@ publishDir = "docs"
     name = "impacthub"
     title = "L'Impact Hub"
     subtitle = "Au coeur de Lausanne"
-    description = "<p>Situé à quelques pas de la place Chauderon, Impact Hub Lausanne met à votre disposition un espace où les entrepreneurs et innovateurs se retrouvent pour prototyper les nouveaux modèles d’une société pour tous - connectant différents secteurs, industries et cultures. Nous vous donnons accès à un espace de travail inspirant, une communauté dynamique et ouverte, des programmes d’incubation de startups, mais aussi des événements dédiés, des cours et des ateliers. En tant que membre, vous rejoignez une communauté de plus 15’000 membres et 80 espaces à travers le monde. </p><ul class='checked'><li>Argument numéro 1</li><li>Argument numéro 2</li><li>Argument numéro 3</li></ul><p><a href='#' class='btn btn-primary btn-outline'>Get In Touch</a></p>"
+    description = "<p>Situé à quelques pas de la place Chauderon, Impact Hub Lausanne met à votre disposition un espace où les entrepreneurs et innovateurs se retrouvent pour prototyper les nouveaux modèles d’une société pour tous - connectant différents secteurs, industries et cultures. Nous vous donnons accès à un espace de travail inspirant, une communauté dynamique et ouverte, des programmes d’incubation de startups, mais aussi des événements dédiés, des cours et des ateliers. En tant que membre, vous rejoignez une communauté de plus 15’000 membres et 80 espaces à travers le monde. </p><ul class='checked'><li>Argument numéro 1</li><li>Argument numéro 2</li><li>Argument numéro 3</li></ul><p><a href='#fh5co-contact' data-nav-section='contact' class='btn btn-primary btn-outline'>Prendre contact</a></p>"
 
   [[params.mission.item]]
     weight = 2
     name = "services"
     title = "Nos services"
     subtitle = "Avoir un impact, faire la différence"
-    description = "<p>Un paragraphe ici qui résume nos services</p><ul class='checked'><li>Abonnements</li><li>Organisation de réunions et d'événements</li><li>Pour les entreprises & organisations</li></ul><p><a href='#' class='btn btn-primary btn-outline'>En apprendre plus sur nos services</a></p>"
+    description = "<p>Un paragraphe ici qui résume nos services</p><ul class='checked'><li>Abonnements</li><li>Organisation de réunions et d'événements</li><li>Pour les entreprises & organisations</li></ul><p><a href='#fh5co-services' data-nav-section='services' class='btn btn-primary btn-outline'>En apprendre plus sur nos services</a></p>"
 
   [[params.mission.item]]
     weight = 3
     name = "spaces"
     title = "L'espace"
     subtitle = "Une communauté, un lieu pour accueillir la créativité et l'innovation"
-    description = "<p>Notre espace est unique et inspirant, tout ce dont vous avez besoin pour une réflexion créative et une performance optimale. Obtenez votre abonnement mensuel ou louez une de nos salles de réunion à l’heure. Réservez une visite guidée pour devenir membre ou faire un tour de notre espace</p><p><a href='https://davidviale.youcanbook.me/' class='btn btn-primary btn-outline'>Réservez une visite guidée</a></p>"
+    description = "<p>Notre espace est unique et inspirant, tout ce dont vous avez besoin pour une réflexion créative et une performance optimale. Obtenez votre abonnement mensuel ou louez une de nos salles de réunion à l’heure. Réservez une visite guidée pour devenir membre ou faire un tour de notre espace</p><p><a href='https://davidviale.youcanbook.me/' class='btn btn-primary btn-outline' target='_blank'>Réservez une visite guidée</a></p>"
 
 # Services section
 [params.services]
@@ -176,23 +176,17 @@ publishDir = "docs"
     name = "Bautista"
     position = "Co-founder"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person1.jpg"
-    facebook = "#"
-    twitter = "#"
-    instagram = "#"
-    linkedin = "#"
-    github = "#"
+    img = "images/baut.jpg"
+    linkedin = "https://www.linkedin.com/in/bautistad/"
+    email = "mailto:bautista.dahl-rocha@impacthub.ch"
 
   [[params.team.item]]
     name = "David"
     position = "Community and event coordinator"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
     img = "images/PicDV.png"
-    facebook = "#"
-    twitter = "#"
-    instagram = "#"
-    linkedin = "#"
-    github = "#"
+    email = "mailto:david.viale@impacthub.ch"
+    linkedin = "https://www.linkedin.com/in/dviale/"
 
   [[params.team.item]]
     name = "Alberto"
@@ -200,17 +194,17 @@ publishDir = "docs"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
     img = "images/alberto.jpg"
     twitter = "https://twitter.com/kidvaldez"
-    instagram = "#"
-    linkedin = "#"
+    linkedin = "https://www.linkedin.com/in/albertobyas/"
+    email = "mailto:alberto.gomez@impacthub.ch"
 
     [[params.team.item]]
       name = "Marc"
       position = "Co-founder"
       description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
       img = "images/mfh_2.png"
+      email = "mailto:marc.friederich@impacthub.ch"
       twitter = "https://twitter.com/zufrieden"
-      instagram = "mfriederich"
-      linkedin = "#"
+      linkedin = "https://www.linkedin.com/in/marcfriederich/"
       github = "https://github.com/zufrieden"
     #
     # [[params.team.item]]
@@ -247,7 +241,13 @@ publishDir = "docs"
 [params.contact]
   enable = true
   title = "Prendre contact"
-  message = "Notre équipe est toujours là pour répondre à vos questions, que ce soit pour un complément d'information concernant les abonnements, une demande de location ou de partenariat ou encore une demande de rendez-vous sur place. Contactez nous par téléphone ou via notre formulaire de contact. "
+  message = "Notre équipe est toujours là pour répondre à vos questions, que ce soit pour un complément d'information concernant les abonnements, une demande de location ou de partenariat ou encore une demande de rendez-vous sur place. Contactez nous par téléphone ou email."
+  visitlink = "https://davidviale.youcanbook.me/"
+  contactvisit = "Réservez une visite guidée"
+  emaillink = "mailto:lausanne@impacthub.ch"
+  contactemail = "lausanne@impacthub.ch"
+  phonelink = "tel:+41787651213"
+  contactphone = "+41 (0)78 765 12 13"
 
 # Footer section
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
