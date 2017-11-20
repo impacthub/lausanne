@@ -32,19 +32,19 @@ publishDir = "docs"
 
 # Mission section
 [params.mission]
-  enable = true
+  enable = false
 
   [params.mission.images]
     enable = true
 
     [[params.mission.images.list]]
       img = "images/impacthublausanne_2.jpg"
-    [[params.mission.images.list]]
-      img = "images/impacthublausanne_3.jpg"
-    [[params.mission.images.list]]
-      img = "images/impacthublausanne_6.jpg"
-    [[params.mission.images.list]]
-      img = "images/impacthublausanne_8.jpg"
+    # [[params.mission.images.list]]
+    #   img = "images/impacthublausanne_3.jpg"
+    # [[params.mission.images.list]]
+    #   img = "images/impacthublausanne_6.jpg"
+    # [[params.mission.images.list]]
+    #   img = "images/impacthublausanne_8.jpg"
 
   [[params.mission.item]]
     weight = 1
@@ -122,30 +122,26 @@ publishDir = "docs"
   title = "Nos événements"
   description = "Pour rester au courant de nos prochains évenements, rendez vous sur notre page [page facebook](https://www.facebook.com/hublausanne/)"
   #
-  # [[params.work.item]]
-  #   title = "Food Save Challenge"
-  #   subtitle = "Ideation workshop"
-  #   img = "images/event_foodchallenge.jpg"
-  #   link = "https://www.facebook.com/events/136269897013032/?acontext=%7B%22source%22%3A5%2C%22page_id_source%22%3A115144788544144%2C%22action_history%22%3A[%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%7B%5C%22page_id%5C%22%3A115144788544144%2C%5C%22tour_id%5C%22%3Anull%7D%22%7D]%2C%22has_source%22%3Atrue%7D"
-  #
-  # [[params.work.item]]
-  #   title = "Consectetur adipisicing"
-  #   subtitle = "Web Design"
-  #   img = "images/event_foodchallenge.jpg"
-  #   link = "https://www.facebook.com/events/136269897013032/?acontext=%7B%22source%22%3A5%2C%22page_id_source%22%3A115144788544144%2C%22action_history%22%3A[%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%7B%5C%22page_id%5C%22%3A115144788544144%2C%5C%22tour_id%5C%22%3Anull%7D%22%7D]%2C%22has_source%22%3Atrue%7D"
-  #
-  # [[params.work.item]]
-  #   title = "Consectetur adipisicing"
-  #   subtitle = "Web Design"
-  #   img = "images/event_foodchallenge.jpg"
-  #   link = "https://www.facebook.com/events/136269897013032/?acontext=%7B%22source%22%3A5%2C%22page_id_source%22%3A115144788544144%2C%22action_history%22%3A[%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%7B%5C%22page_id%5C%22%3A115144788544144%2C%5C%22tour_id%5C%22%3Anull%7D%22%7D]%2C%22has_source%22%3Atrue%7D"
-  #
-  # [[params.work.item]]
-  #   title = "Consectetur adipisicing"
-  #   subtitle = "Web Design"
-  #   img = "images/event_foodchallenge.jpg"
-  #   link = "https://www.facebook.com/events/136269897013032/?acontext=%7B%22source%22%3A5%2C%22page_id_source%22%3A115144788544144%2C%22action_history%22%3A[%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%7B%5C%22page_id%5C%22%3A115144788544144%2C%5C%22tour_id%5C%22%3Anull%7D%22%7D]%2C%22has_source%22%3Atrue%7D"
-  #
+   [[params.work.item]]
+     title = "Food Save Challenge"
+     subtitle = "Ideation workshop"
+     img = "images/impacthublausanne_2.jpg"
+
+   [[params.work.item]]
+     title = "Consectetur adipisicing"
+     subtitle = "Web Design"
+     img = "images/impacthublausanne_7.jpg"
+
+   [[params.work.item]]
+     title = "Consectetur adipisicing"
+     subtitle = "Web Design"
+     img = "images/impacthublausanne_6.jpg"
+
+   [[params.work.item]]
+     title = "Consectetur adipisicing"
+     subtitle = "Web Design"
+     img = "images/impacthublausanne_8.jpg"
+
   # [[params.work.item]]
   #   title = "Consectetur adipisicing"
   #   subtitle = "Web Design"
@@ -241,13 +237,14 @@ publishDir = "docs"
 [params.contact]
   enable = true
   title = "Prendre contact"
-  message = "Notre équipe est toujours là pour répondre à vos questions, que ce soit pour un complément d'information concernant les abonnements, une demande de location ou de partenariat ou encore une demande de rendez-vous sur place. Contactez nous par téléphone ou email."
+  # message = "Notre équipe est toujours là pour répondre à vos questions, que ce soit pour un complément d'information concernant les abonnements, une demande de location ou de partenariat ou encore une demande de rendez-vous sur place. Contactez nous par téléphone ou email."
+  message = "Notre équipe est toujours là pour répondre à vos questions, que ce soit pour un complément d'information concernant les abonnements, une demande de location ou de partenariat ou encore une demande de rendez-vous sur place. Contactez nous par email."
   visitlink = "https://davidviale.youcanbook.me/"
   contactvisit = "Réservez une visite guidée"
-  emaillink = "mailto:lausanne@impacthub.ch"
-  contactemail = "lausanne@impacthub.ch"
-  phonelink = "tel:+41787651213"
-  contactphone = "+41 (0)78 765 12 13"
+  emaillink = "mailto:david.viale@impacthub.ch"
+  contactemail = "david.viale@impacthub.ch"
+  # phonelink = "tel:+41787651213"
+  # contactphone = "+41 (0)78 765 12 13"
 
 # Footer section
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
