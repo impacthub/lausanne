@@ -7,8 +7,8 @@ publishDir = "docs"
 
 # Metadata
 [params]
-  author = "Your name"
-  description = "Cool description"
+  author = "Marc Friederich"
+  description = "Nous sommes une communauté locale d’entrepreneurs, un espace coopératif et un laboratoire d’idées, cherchant à apporter des solutions innovantes aux challenges de la société actuelle."
 
 # Hero section (from here on is for icon theme)
 [params.hero]
