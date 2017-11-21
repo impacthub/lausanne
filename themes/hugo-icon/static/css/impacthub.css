@@ -13,7 +13,10 @@
 
 #fh5co-location {
   clear: both;
-  padding: 7em 0;
+  padding: 0 0;
+}
+.heading-top{
+  margin-top: 4em;
 }
 @media screen and (max-width: 768px) {
   #fh5co-location {
@@ -23,4 +26,13 @@
 
 #fh5co-home .fh5co-copy-inner h2 {
   line-height: 1.5em;
+}
+
+.fh5co-heading.hero-event-content{
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.fh5co-heading.hero-event-content h2, .fh5co-heading.hero-event-content p{
+  color: #ffffff;
+  font-size: 160%;
 }

@@ -22,11 +22,11 @@ publishDir = "docs"
 # Navigation section
 [params.nav]
   mission = "En résumé"
-  services = "L'Impact Hub"
+  services = "Impact Hub"
   work = "Événements"
   team = "L'équipe"
   location = "Nous trouver"
-  contact = "Prendre contact"
+  contact = "Nous contacter"
   # Include logo instead if HOME:
   # logo = "path/to/logo"
 
@@ -49,7 +49,7 @@ publishDir = "docs"
   [[params.mission.item]]
     weight = 1
     name = "impacthub"
-    title = "L'Impact Hub"
+    title = "Impact Hub"
     subtitle = "Au coeur de Lausanne"
     description = "<p>Situé à quelques pas de la place Chauderon, Impact Hub Lausanne met à votre disposition un espace où les entrepreneurs et innovateurs se retrouvent pour prototyper les nouveaux modèles d’une société pour tous - connectant différents secteurs, industries et cultures. Nous vous donnons accès à un espace de travail inspirant, une communauté dynamique et ouverte, des programmes d’incubation de startups, mais aussi des événements dédiés, des cours et des ateliers. En tant que membre, vous rejoignez une communauté de plus 15’000 membres et 80 espaces à travers le monde. </p><ul class='checked'><li>Argument numéro 1</li><li>Argument numéro 2</li><li>Argument numéro 3</li></ul><p><a href='#fh5co-contact' data-nav-section='contact' class='btn btn-primary btn-outline'>Prendre contact</a></p>"
 
@@ -92,7 +92,7 @@ publishDir = "docs"
     icon = "icon-map"
     photo = "images/impacthublausanne_5.jpg"
     title = "Pour les entreprises & organisations"
-    description = "Vous souhaitez comprendre les challenges et tendances futures de votre secteur, votre région? Explorer de nouvelles possibilités de développement? Chercher des approches innovantes afin de réaliser des projets tout en vous inscrivant dans une dynamique durable? Afin de faire avancer votre organisation et vos collaborateurs dans cette direction, nous vous accompagnons dans la réalisation de:"
+    description = "Vous souhaitez comprendre les challenges et tendances futures de votre secteur, votre région? Explorer de nouvelles possibilités de développement? Chercher des approches innovantes afin de réaliser des projets tout en vous inscrivant dans une dynamique durable? Afin de faire avancer votre organisation et vos collaborateurs dans cette direction, nous vous accompagnons dans la réalisation de séances de brainstormings et organisation de Hackathons"
 
   # [[params.services.item]]
   #   icon = "icon-pencil"
@@ -113,14 +113,14 @@ publishDir = "docs"
 [params.location]
   enable = true
   title = "Comment nous trouver"
-  description = "<p>Nous sommes situé à 10 minutes de la gare à 2 pas de Chaudron</p><p>Impact Hub Lausanne <br/>Rue du Jura 11 <br/>CH - 1004 Lausanne </p><p>Lundi - Vendredi 09:00 - 19:00</p>"
+  description = "<p>Impact Hub Lausanne <br/>Rue du Jura 11 <br/>CH - 1004 Lausanne </p><p>Lundi - Vendredi 09:00 - 19:00</p>"
   map = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2745.126984806966!2d6.621926315969944!3d46.52538897912782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c2e28dd3c3b7b%3A0xe63af32d75408e0b!2sImpact+Hub+Lausanne!5e0!3m2!1sen!2sch!4v1508223202322"
 
 # Work section
 [params.work]
   enable = true
   title = "Nos événements"
-  description = "Pour rester au courant de nos prochains évenements, rendez vous sur notre page [page facebook](https://www.facebook.com/hublausanne/)"
+  description = "Pour rester au courant de nos prochains évenements, rendez vous sur notre [page facebook](https://www.facebook.com/hublausanne/)"
   #
    [[params.work.item]]
      title = "Food Save Challenge"
@@ -165,7 +165,7 @@ publishDir = "docs"
 # # Team section
 [params.team]
   enable = true
-  title = "L'équipe de l'Impact Hub Lausanne"
+  title = "L'équipe"
   description = "Il me manque le texte ....."
 
   [[params.team.item]]
@@ -236,15 +236,15 @@ publishDir = "docs"
 # Contact section
 [params.contact]
   enable = true
-  title = "Prendre contact"
+  title = "Nous contacter"
   # message = "Notre équipe est toujours là pour répondre à vos questions, que ce soit pour un complément d'information concernant les abonnements, une demande de location ou de partenariat ou encore une demande de rendez-vous sur place. Contactez nous par téléphone ou email."
   message = "Notre équipe est toujours là pour répondre à vos questions, que ce soit pour un complément d'information concernant les abonnements, une demande de location ou de partenariat ou encore une demande de rendez-vous sur place. Contactez nous par email."
   visitlink = "https://davidviale.youcanbook.me/"
   contactvisit = "Réservez une visite guidée"
   emaillink = "mailto:david.viale@impacthub.ch"
   contactemail = "david.viale@impacthub.ch"
-  # phonelink = "tel:+41787651213"
-  # contactphone = "+41 (0)78 765 12 13"
+  # phonelink = "tel:+41788285687"
+  # contactphone = "+41 (0)78 828 56 87"
 
 # Footer section
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
