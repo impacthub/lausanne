@@ -8,7 +8,11 @@
 .impacthub h1 {
   font-family: "GT Walsheim","Open Sans", Arial, sans-serif;
   font-weight: 700;
-  line-height: 0.9em!important;
+}
+
+#fh5co-home .fh5co-copy-inner h1{
+  font-size: 36px;
+  /*line-height: 1.4em;*/
 }
 
 #fh5co-location {
@@ -35,4 +39,14 @@
 .fh5co-heading.hero-event-content h2, .fh5co-heading.hero-event-content p{
   color: #ffffff;
   font-size: 160%;
+}
+
+.btn-facebook{
+  color: #8b9dc3;
+  background-color: #3b5998;
+  border-color: #3b5998 !important;
+}
+.btn-facebook:hover{
+  color: #fff;
+  background-color: #3b5998;
 }

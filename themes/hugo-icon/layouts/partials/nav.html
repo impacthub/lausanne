@@ -12,7 +12,7 @@
 	{{ if .Site.Params.services.enable }}
 	<a href="#" data-nav-section="services">{{ with .Site.Params.nav.services }}{{ . | markdownify }}{{ end }}</a>
 	{{ end }}
-  
+
   {{ if .Site.Params.work.enable }}
   <a href="#" data-nav-section="events">{{ with .Site.Params.nav.work }}{{ . | markdownify }}{{ end }}</a>
   {{ end }}
@@ -21,9 +21,9 @@
 	<a href="#" data-nav-section="team">{{ with .Site.Params.nav.team }}{{ . | markdownify }}{{ end }}</a>
 	{{ end }}
 
-  {{ if .Site.Params.location.enable }}
+  <!-- {{ if .Site.Params.location.enable }}
 	<a href="#" data-nav-section="location">{{ with .Site.Params.nav.location }}{{ . | markdownify }}{{ end }}</a>
-	{{ end }}
+	{{ end }} -->
 
 	{{ if .Site.Params.contact.enable }}
 	<a href="#" data-nav-section="contact">{{ with .Site.Params.nav.contact }}{{ . | markdownify }}{{ end }}</a>

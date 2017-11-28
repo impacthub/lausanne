@@ -45,8 +45,13 @@
   </svg>
 	  <h1>{{ with .Site.Params.hero.teaser }}{{ . | markdownify }}{{ end }}</h1>
     <h2>{{ with .Site.Params.hero.description }}{{ . | markdownify }}{{ end }}<br/>
-      <a href="#fh5co-contact" data-nav-section="contact" id="gtm-join-us">{{ with .Site.Params.hero.contact }}{{ . | markdownify }}{{ end }}</a> | <a href="#fh5co-services" data-nav-section="services" id="gtm-infos">{{ with .Site.Params.hero.informations }}{{ . | markdownify }}{{ end }}</a>
+      <a href="mailto:lausanne@impacthub.ch"  id="gtm-join-us" class="btn btn-primary"><i class="icon-inbox"></i> {{ with .Site.Params.hero.contact }}{{ . | markdownify }}{{ end }}</a>
+      <a href="https://www.facebook.com/impacthublausanne/" class="btn btn-default btn-facebook"> <i class="icon-facebook"></i> facebook </a>
     </h2>
+
+
+
+
 	</div>
       </div>
     </div>

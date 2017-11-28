@@ -14,19 +14,17 @@ publishDir = "docs"
 [params.hero]
   img = "images/impacthublausanne_1.jpg"
   title = "ImpactHub Lausanne"
-  teaser = "Rejoignez-nous !"
-  description = "Nous sommes une communauté locale d’entrepreneurs, un espace coopératif et un laboratoire d’idées, cherchant à apporter des solutions innovantes aux challenges de la société actuelle."
-  contact = "Rejoignez-nous"
-  informations = "Plus d’informations"
+  teaser = "Rejoignez la plus grande communauté de créatifs et d’entrepreneurs locaux !"
+  # description = "Nous sommes une communauté locale d’entrepreneurs, un espace coopératif et un laboratoire d’idées, cherchant à apporter des solutions innovantes aux challenges de la société actuelle."
+  contact = "Contactez-nous"
 
 # Navigation section
 [params.nav]
   mission = "En résumé"
-  services = "Impact Hub"
+  services = "Impact Hub Lausanne"
   work = "Événements"
-  team = "L'équipe"
-  location = "Nous trouver"
-  contact = "Nous contacter"
+  team = "Équipe"
+  contact = "Contact"
   # Include logo instead if HOME:
   # logo = "path/to/logo"
 
@@ -72,8 +70,8 @@ publishDir = "docs"
   enable = true
   video = false
   vidlink = "https://vimeo.com/channels/staffpicks/93951774"
-  title = "L'ImpactHub"
-  description = "Nous croyons qu’un monde meilleur évolue à travers les accomplissements combinés d’individus créatifs, engagés et passionnés se concentrant sur un objectif commun. Impact Hub vous offre un écosystème unique de ressources, d’inspirations et d’opportunités de collaboration afin de croître l’impact positif de vos travaux. Rejoindre notre vaste communauté de membres et collaborateurs vous inspirera et connectera tout en vous permettant de développer le meilleur de votre travail, à chacune de ses étapes."
+  title = "Impact Hub Lausanne"
+  description = "<p>Impact Hub Lausanne est le fruit de deux années de recherche et de mise en place d’une structure et d’une communauté répondant aux besoins et mutations liées à l’entrepreneuriat en Suisse romande.</p><p> L’espace collaboratif a pour vocation la mise en relation, le partage de ressources et d’opportunités entre ses membres, la création d’événements et l’incubation de start-ups.</p><p>Comme son nom l’indique, Impact Hub Lausanne tient à avoir un impact, à jouer un rôle de moteur sur le tissu économique local et les marchés en développement, tout en favorisant les projets sociétaux et environnementaux tels que le Lab Vie Durable, premier programme lausannois organisé en partenariat avec le fonds de soutien Engagement Migros.</p>"
   contact = "Prendre contact"
 
   [[params.services.item]]
@@ -120,7 +118,7 @@ publishDir = "docs"
 [params.work]
   enable = true
   title = "Nos événements"
-  description = "Pour rester au courant de nos prochains évenements, rendez vous sur notre [page facebook](https://www.facebook.com/hublausanne/)"
+  description = "Pour rester au courant de nos prochains évenements, rendez-vous sur notre [page facebook](https://www.facebook.com/impacthublausanne/)"
   #
    [[params.work.item]]
      title = "Food Save Challenge"
@@ -253,7 +251,7 @@ publishDir = "docs"
   note = "<p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Demo Images: <a href='http://pexels.com/' target='_blank'>Pexels</a><br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
   github = "#"
   twitter = "#"
-  facebook = "https://www.facebook.com/hublausanne/"
+  facebook = "https://www.facebook.com/impacthublausanne/"
   vine = "#"
   linkedin = "#"
   instagram = "#"
