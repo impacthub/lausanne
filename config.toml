@@ -186,20 +186,69 @@ publishDir = "docs"
     name = "Alberto"
     position = "Co-founder"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/alberto.jpg"
+    img = "images/alberto.png"
     twitter = "https://twitter.com/kidvaldez"
     linkedin = "https://www.linkedin.com/in/albertobyas/"
     email = "mailto:alberto.gomez@impacthub.ch"
 
-    [[params.team.item]]
-      name = "Marc"
-      position = "Co-founder"
-      description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-      img = "images/mfh_2.png"
-      email = "mailto:marc.friederich@impacthub.ch"
-      twitter = "https://twitter.com/zufrieden"
-      linkedin = "https://www.linkedin.com/in/marcfriederich/"
-      github = "https://github.com/zufrieden"
+  [[params.team.item]]
+    name = "Marc"
+    position = "Co-founder"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/mfh_2.png"
+    email = "mailto:marc.friederich@impacthub.ch"
+    twitter = "https://twitter.com/zufrieden"
+    linkedin = "https://www.linkedin.com/in/marcfriederich/"
+    github = "https://github.com/zufrieden"
+
+  [[params.team.item]]
+    name = " Alexandra ‘Santu’ Boëthius"
+    position = "Co-Founder - Head of Strategy "
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/santu.jpg"
+    email = "mailto:alexandra.boethius@impacthub.net"
+
+  [[params.team.item]]
+    name = "Amanda Byrde"
+    position = "Co-Founder - Head of Finance "
+    img = "images/amanda.jpg"
+    email = "mailto:amanda.byrde@impacthub.ch"
+
+  [[params.team.item]]
+    name = "Felix Stähli"
+    position = "Co-Founder - Head of Operations "
+    img = "images/felix.jpg"
+    email = "mailto:felix.staehli@impacthub.ch"
+
+  [[params.team.item]]
+    name = "Julien Clivaz"
+    position = "Co-Founder - Head of Development "
+    img = "images/julien.jpg"
+    email = "mailto:julien.clivaz@impacthub.net"
+
+  [[params.team.item]]
+    name = "Ashleigh Armstrong"
+    position = "Community Coordinator "
+    img = "images/ashleigh.jpg"
+    email = "mailto:ashleigh.armstrong@impacthub.ch"
+
+  [[params.team.item]]
+    name = "Erica Mazerolle"
+    position = "Program Manager - Sustainable Living Lab "
+    img = "images/erica.jpg"
+    email = "mailto:erica.mazerolle@impacthub.ch"
+
+  [[params.team.item]]
+    name = "Krista Kaufmann"
+    position = "-"
+    img = "images/krista.png"
+    email = "mailto:krista.kaufmann@impacthub.ch"
+
+  [[params.team.item]]
+    name = "Enrique Hablutzel"
+    position = "Business Development "
+    img = "images/enrique.jpg"
+    email = "mailto:enrique.hablutzel@impacthub.ch"
     #
     # [[params.team.item]]
     #   name = "Alice Doe"

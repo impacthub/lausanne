@@ -11,12 +11,11 @@
 
 
     {{ range .item }}
-    <div class="col-md-3">
-      <div class="person">
+    <div class="col-md-3 col-sm-6 col-xs-12">
+      <div class="person" style="min-height:450px">
 	<img src="{{ .img | absURL }}" alt="" class="img-responsive">
 	<h3>{{ .name }}</h3>
 	<h4>{{ .position }}</h4>
-	<!-- <p>{{ .description | markdownify }}</p> -->
 	<ul class="social">
     {{ if isset . "email" }}
 	  <li><a href="{{ .email }}"><i class="icon-inbox"></i></a></li>
