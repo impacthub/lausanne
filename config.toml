@@ -290,8 +290,8 @@ publishDir = "docs"
   contactvisit = "Réservez une visite guidée"
   emaillink = "mailto:david.viale@impacthub.ch"
   contactemail = "david.viale@impacthub.ch"
-  # phonelink = "tel:+41788285687"
-  # contactphone = "+41 (0)78 828 56 87"
+  phonelink = "tel:+41793892288"
+  contactphone = "+41 (0)79 389 22 88"
 
 # Footer section
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
