@@ -1,15 +1,43 @@
 
-<div id="fh5co-gallery" data-section="events"  style="min-height: 40vh; background-image: url({{ with .Site.Params.hero.img }}{{ . | absURL }}{{ end }});">
+<div id="fh5co-gallery" data-section="events" style="border-top: 1px solid #ccc;">
   <div class="container">
-    <div class="col-md-6 col-md-offset-3 text-center fh5co-heading hero-event-content">
-      {{ with .Site.Params.work }}
-      <h2>{{ .title }}</h2>
-      <p>{{ .description | markdownify }}</p>
+    <div class="col-md-12">
+      <div style="background-color:white;padding:20px">
+        <h3 style="margin-bottom:0.2em;">Journée d’Inauguration Officielle - Programme</h3>
+        <h4 style="margin-top:0;">27.01.18 / 10:00 - 23:59</h4>
+        <a href="https://www.facebook.com/events/178210356245798/" style="display:block;margin:10px 0;">
+          <style media="screen">
+            @media screen and (min-width: 1100px) {
+              img.desktop_program{ display: block;}
+              img.mobile_program{ display: none;}
+            }
+            @media screen and (max-width: 1099px) {
+              img.desktop_program{ display: none;}
+              img.mobile_program{ display: block;}
+            }
+          </style>
+          <img src="./images/agenda27-01.png" alt="" width="100%" class="desktop_program">
+          <img src="./images/agenda27-01_v.png" alt="" width="100%" class="mobile_program">
+        </a>
+        <p><strong>STANDS (12:00 - 18:30):</strong> découvrez les différents projets de nos membres du réseau Impact Hub<br/>
+          <strong>FOOD & DRINKS (10:00 - 23:45):</strong> tout au long de la journée et de la soirée nos partenaires locaux vous réservent diverses réjouissances gustatives…</p>
+        <p><a href="https://www.facebook.com/events/178210356245798/" class="btn btn-primary"><i class="icon-facebook"></i> En savoir plus</a></p>
 
-      <div class="text-center">
-        <p><a href="https://www.facebook.com/impacthublausanne/" class="btn btn-primary" id="gtm-event"><i class="icon-facebook"></i> Tous nos événements</a></p>
       </div>
-      {{ end }}
+    </div>
+  </div>
+  <div style="min-height: 40vh; background-image: url({{ with .Site.Params.hero.img }}{{ . | absURL }}{{ end }});">
+    <div class="container">
+      <div class="col-md-6 col-md-offset-3 text-center fh5co-heading hero-event-content">
+        {{ with .Site.Params.work }}
+        <h2>{{ .title }}</h2>
+        <p>{{ .description | markdownify }}</p>
+
+        <div class="text-center">
+          <p><a href="https://www.facebook.com/impacthublausanne/" class="btn btn-primary" id="gtm-event"><i class="icon-facebook"></i> Tous nos événements</a></p>
+        </div>
+        {{ end }}
+      </div>
     </div>
   </div>
 </div> <!-- END fh5co-gallery -->
